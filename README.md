@@ -1,5 +1,5 @@
-# Задания "Продвинутый JavaScript в браузере"
 
+<<<<<<< HEAD
 - [x] [Рабочее окружение](/ahj-env)
 - [x] [DOM](/ahj-dom)
 - [x] [Обработка событий](/ahj-events)
@@ -12,3 +12,5 @@
 - [x] [RxJS](/ahj-rxjs)
 - [x] [EventSource, WebSockets](/ahj-sse-ws)
 - [x] [WebWorkers, ServiceWorkers](/ahj-workers)
+=======
+>>>>>>> 23275fbfe3e4ecdfc667f90fa135c127ba163531
