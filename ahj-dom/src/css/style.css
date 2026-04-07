@@ -1,0 +1,54 @@
+:root {
+    --cell-size: 90px;
+    --gap: 6px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    margin: 0;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(4, var(--cell-size));
+    grid-template-rows: repeat(4, var(--cell-size));
+    gap: var(--gap);
+    padding: 16px;
+    background: #222;
+    border-radius: 12px;
+}
+
+.cell {
+    width: var(--cell-size);
+    height: var(--cell-size);
+    background: #ddd;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell.empty {
+    background: #ddd;
+}
+
+.goblin {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.legend {
+    color: #333;
+    text-align: center;
+    margin-bottom: 12px;
+}
